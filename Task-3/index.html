@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Car Rent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="container-fluid border-light py-1">
+        <nav class="container d-flex justify-between align-center">
+
+            <div class="logo">
+                <img src="imges/Logo.png" alt="">
+            </div>
+
+            <div class="search-bar">
+                <form action="#" class="search d-flex align-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search something here" class="search-input">
+                    <button type="button" class="filter-btn">
+                    <i class="fa-solid fa-sliders"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="d-flex align-center ">
+                <img src="imges/Profil & Notification.png" alt="zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz">
+            </div>
+        </nav>
+
+        <div class="container d-flex justify-between align-center py-1">
+            <img src="imges/Ads 1.png" alt="">
+                        <img src="imges/Ad.png" alt="">
+
+        </div>
+
+        <section class="container d-flex justify-between align-center py-1" style="gap: 20px; margin: 40px auto;">
+    
+    <div class="booking-box bg-white p-20 border-radius-10 shadow-soft flex-grow">
+        <div class="d-flex align-center m-b-10" style="gap: 10px;">
+            <input type="radio" checked style="accent-color: #3563E9;">
+            <span class="font-bold fs-1">Pick - Up</span>
+        </div>
+        <div class="d-flex justify-between">
+            <div class="input-group">
+                <label class="font-bold d-block">Locations</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your city</option>
+                </select>
+            </div>
+            <div class="input-group border-left-light">
+                <label class="font-bold d-block">Date</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your date</option>
+                </select>
+            </div>
+            <div class="input-group border-left-light">
+                <label class="font-bold d-block">Time</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your time</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <button class="switch-btn btn-primary shadow-soft">
+        <i class="fa-solid fa-up-down"></i>
+    </button>
+
+    <div class="booking-box bg-white p-20 border-radius-10 shadow-soft flex-grow">
+        <div class="d-flex align-center m-b-10" style="gap: 10px;">
+            <input type="radio" style="accent-color: #54A6FF;">
+            <span class="font-bold fs-1">Drop - Off</span>
+        </div>
+        <div class="d-flex justify-between">
+            <div class="input-group">
+                <label class="font-bold d-block">Locations</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your city</option>
+                </select>
+            </div>
+            <div class="input-group border-left-light">
+                <label class="font-bold d-block">Date</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your date</option>
+                </select>
+            </div>
+            <div class="input-group border-left-light">
+                <label class="font-bold d-block">Time</label>
+                <select class="border-none text-muted bg-transparent">
+                    <option>Select your time</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+        <main class="container py-1">
+    
+    <div class="d-flex justify-between align-center py-1">
+        <h3 class="text-muted" style="font-size: 1rem;">Popular Car</h3>
+        <a href="#" style="color: #3563E9; font-size: 0.9rem;">View All</a>
+    </div>
+
+    <div class="d-flex flex-wrap justify-between" style="gap: 20px;">
+        
+        <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+        <br>
+
+        <br>
+
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+          <div class="car-card bg-white p-20 border-radius-10 shadow-soft">
+            <div class="d-flex justify-between">
+                <div>
+                    <h4 class="m-0">Koenigsegg</h4>
+                    <small class="text-muted">Sport</small>
+                </div>
+                <i class="fa-solid fa-heart" style="color: #ED4F4F; cursor: pointer;"></i>
+            </div>
+            
+            <div class="text-center py-20">
+                <img src="imges/car (1).png" class="w-100" alt="Car Image" style="max-height: 100px; object-fit: contain;">
+            </div>
+
+            <div class="d-flex justify-between text-muted fs-08 py-1">
+                <span><i class="fa-solid fa-gas-pump"></i> 90L</span>
+                <span><i class="fa-solid fa-circle-notch"></i> Manual</span>
+                <span><i class="fa-solid fa-users"></i> 2 People</span>
+            </div>
+
+            <div class="d-flex justify-between align-center" style="margin-top: 15px;">
+                <div class="font-bold fs-12">$99.00/ <span class="text-muted fs-08 font-light">day</span></div>
+                <button class="btn-primary">Rent Now</button>
+            </div>
+        </div>
+        
+        </div>
+
+    <div class="text-center" style="margin: 50px 0;">
+        <button class="btn-primary" style="padding: 12px 25px;">Show more car</button>
+    </div>
+
+</main>
+
+<footer class="bg-white" style="margin-top: 50px; border-top: 1px solid #E6E6E6;">
+    <div class="container py-1 d-flex justify-between" style="padding-top: 60px; padding-bottom: 60px;">
+        
+        <div style="width: 30%;">
+            <h2 style="color: #3563E9; margin-bottom: 15px;">MORENT</h2>
+            <p class="text-muted" style="line-height: 1.6;">Our vision is to provide convenience and help increase your sales business.</p>
+        </div>
+
+        <div class="d-flex" style="gap: 60px;">
+            <div class="footer-column">
+                <h4 style="margin-bottom: 20px;">About</h4>
+                <a href="#" class="footer-link">How it works</a>
+                <a href="#" class="footer-link">Featured</a>
+                <a href="#" class="footer-link">Partnership</a>
+                <a href="#" class="footer-link">Bussiness Relation</a>
+            </div>
+            <div class="footer-column">
+                <h4 style="margin-bottom: 20px;">Community</h4>
+                <a href="#" class="footer-link">Events</a>
+                <a href="#" class="footer-link">Blog</a>
+                <a href="#" class="footer-link">Podcast</a>
+                <a href="#" class="footer-link">Invite a friend</a>
+            </div>
+            <div class="footer-column">
+                <h4 style="margin-bottom: 20px;">Socials</h4>
+                <a href="#" class="footer-link">Discord</a>
+                <a href="#" class="footer-link">Instagram</a>
+                <a href="#" class="footer-link">Twitter</a>
+                <a href="#" class="footer-link">Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-between py-1" style="border-top: 1px solid #E6E6E6; padding-top: 30px;">
+        <p class="font-bold fs-08">©2022 MORENT. All rights reserved</p>
+        <div class="d-flex" style="gap: 30px;">
+            <a href="#" class="font-bold fs-08" style="color: black;">Privacy & Policy</a>
+            <a href="#" class="font-bold fs-08" style="color: black;">Terms & Condition</a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
